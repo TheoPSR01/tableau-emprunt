@@ -154,12 +154,12 @@ def main(argv=None) -> int:
         for l in lignes:
             print(f"{l.numero:>4} {_fr(l.mensualite):>12} {_fr(l.interets):>11} {_fr(l.capital):>11} {_fr(l.assurance):>10} {_fr(l.restant_du):>13}")
         print()
-    print(f"Mensualité hors assurance   : {_fr(r.mensualite)} €")
+    print(f"Mensualité hors assurance     : {_fr(r.mensualite)} €")
     print(f"Mensualité assurance comprise : {_fr(r.mensualite_assurance_comprise)} €")
-    print(f"Total des intérêts          : {_fr(r.total_interets)} €")
-    print(f"Total de l'assurance         : {_fr(r.total_assurance)} €")
-    print(f"Coût total du crédit        : {_fr(r.cout_total)} €")
-    print(f"Montant total remboursé      : {_fr(r.total_rembourse)} €")
+    print(f"Total des intérêts            : {_fr(r.total_interets)} €")
+    print(f"Total de l'assurance          : {_fr(r.total_assurance)} €")
+    print(f"Coût total du crédit          : {_fr(r.cout_total)} €")
+    print(f"Montant total remboursé       : {_fr(r.total_rembourse)} €")
     return 0
 
 
